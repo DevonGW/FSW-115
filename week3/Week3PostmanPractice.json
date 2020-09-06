@@ -1,0 +1,22 @@
+[
+    {
+        "completed": true,
+        "_id": "5f54430da269067180b0f05a",
+        "title": "Cat in the Hat",
+        "description": "Childrens Book",
+        "price": 15,
+        "imgUrl": "https://images-na.ssl-images-amazon.com/images/I/51L3jDkuo+L._SY344_BO1,204,203,200_.jpg",
+        "sessionId": "[Devon_Grimm-Wash]",
+        "__v": 0
+    },
+    {
+        "completed": true,
+        "_id": "5f5448d7a269067180b0f05d",
+        "title": "Goosebumps: Night of the Living Dummy",
+        "description": "Goosebumps Classic Novel",
+        "price": 26,
+        "imgUrl": "https://m.media-amazon.com/images/I/61XMXtShi4L.jpg",
+        "sessionId": "[Devon_Grimm-Wash]",
+        "__v": 0
+    }
+]
