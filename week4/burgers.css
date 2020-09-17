@@ -1,0 +1,79 @@
+* {
+    background-color: rgb(48, 48, 207);
+}
+
+#grid-container {
+    margin: 1em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+}
+
+#header{
+    margin-left: 40% ;
+    
+}
+
+@media screen and (max-width: 450px) { 
+    .nav {
+        grid-column: 1 / 5;
+        grid-row: 1 / 2;
+    }
+
+   
+      #RandMaxiosTodo {
+        grid-column: 3 / 4;
+        grid-row: 5 / 6;
+    }
+
+    #vSchoolButton {
+        grid-column: 3 / 4;
+        grid-row: 2 / 3;        
+        margin-top: 25px;
+        background-color: thistle;        
+    }
+
+    #vSchoolInfo {
+        grid-column: 3 / 4;
+        grid-row: 3 / 4;
+    }
+
+    #axiosTodo {
+        grid-column: 3 / 4;
+        grid-row: 4 / 5;
+    }
+
+    
+}
+    @media screen and (min-width: 451px) { 
+
+        
+        a:visited {
+            color: orchid;
+            text-decoration: none;
+        }
+       
+       
+     }        
+        #RandMaxiosTodo {
+            grid-column: 3 / 4;
+            grid-row: 4 / 5;
+        }
+
+        #vSchoolButton {
+            grid-column: 3 / 4;
+            grid-row: 1 / 2;        
+            margin-top: 25px;
+            background-color: thistle;
+        }
+
+        #vSchoolInfo {
+            grid-column: 3 / 4;
+            grid-row: 2 / 3;
+        }
+    
+        #axiosTodo {
+            grid-column: 3 / 4;
+            grid-row: 3 / 4;
+        }
+    
