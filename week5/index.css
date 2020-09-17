@@ -1,0 +1,82 @@
+* {
+    background-color:orange;
+}
+
+#postHeader {
+    margin-left: 65px;
+    color: Blue;
+}
+
+
+#input1 {
+    background-color: white;
+    margin-left: 50px;
+}
+
+#input2 {
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+#input3 {
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+#button {
+    background-color: lightgray;
+    margin-left: 105px;
+}
+
+#putHeader {
+    margin-left: 45px;
+    color: Blue;
+}
+
+#putHeader2 {
+    margin-left: 40px;
+    color: Blue;
+}
+
+#putInput1 {
+    background-color: white;
+    margin-left: 50px;
+}
+
+#putInput2 {
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+#putInput3 {
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+#putButton {
+    background-color: lightgray;
+    margin-left: 105px;
+}
+
+.title {
+    text-decoration: line-through;
+}
+
+#getHeader {
+    margin-top: 30px;
+    margin-left: 50px;
+    color:olivedrab;
+}
+
+#getP {
+    margin-left: 50px;
+    color: Blue;
+}
+
+#axiosTodo {
+    margin-left: 50px;
+}
