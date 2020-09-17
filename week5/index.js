@@ -1,6 +1,3 @@
-  
-
-
 const main = document.getElementById("axiosTodo");
 
 // Get
@@ -52,7 +49,7 @@ axios.get( "https://api.vschool.io/[Devon_Grimm-Wash]/todo").then((response) => 
       completedItem[i].addEventListener("click", (event) => {
         event.preventDefault()
         id = response.data[i]._id
-        axios.put("https://api.vschool.io/sds1973/todo/" + id, completedTask)
+        axios.put(" https://api.vschool.io/[Devon_Grimm-Wash]/todo" + id, completedTask)
           .then((response) => console.log(response.data))
           .catch((error) => console.log(error));
       });
@@ -63,7 +60,7 @@ axios.get( "https://api.vschool.io/[Devon_Grimm-Wash]/todo").then((response) => 
     boxIncomplete[i].addEventListener("click", (event) => {
         event.preventDefault()
         id = response.data[i]._id
-        axios.put("https://api.vschool.io/sds1973/todo/" + id, incompletedTask)
+        axios.put(" https://api.vschool.io/[Devon_Grimm-Wash]/todo" + id, incompletedTask)
           .then((response) => console.log(response.data))
           .catch((error) => console.log(error));
       });
@@ -75,7 +72,7 @@ axios.get( "https://api.vschool.io/[Devon_Grimm-Wash]/todo").then((response) => 
         event.preventDefault();
         id = response.data[i]._id;
         axios
-          .delete("https://api.vschool.io/sds1973/todo/" + id)
+          .delete(" https://api.vschool.io/[Devon_Grimm-Wash]/todo" + id)
           .then((response) => console.log(response.data))
           .catch((error) => console.log(error));
       });
@@ -95,10 +92,16 @@ submitButton.addEventListener("submit", function (event) {
   };
 
   axios
-    .post("https://api.vschool.io/sds1973/todo/", newTodo)
+    .post(" https://api.vschool.io/[Devon_Grimm-Wash]/todo", newTodo)
     .then((response) => console.log(response.data))
     .catch((error) => console.log(error));
 });
+
+
+
+  
+
+
 
 
 
