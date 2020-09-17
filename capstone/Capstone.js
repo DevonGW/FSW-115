@@ -12,10 +12,6 @@ function get(){
                 const completeSpan = document.createElement("span")
                 const incompleteBox = document.createElement("input")
                 const incompleteSpan = document.createElement("span")
-// editTitle = document.createElement("input")
-// document.createElement("br")
-// editDescription = document.createElement("input")
-// editButton = document.createElement("button")
                 const deleteButton = document.createElement("button")
                 deleteButton.className = "deleteButton"
                 
