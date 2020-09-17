@@ -1,6 +1,6 @@
 const main = document.getElementById("axiosTodo");
 
-let url = "https://api.vschool.io/sds1973/todo"
+let url = " https://api.vschool.io/[Devon_Grimm-Wash]/todo"
 
 axios.get(url)
     .then( response => {
